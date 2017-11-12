@@ -1,28 +1,65 @@
-.App {
-  text-align: center;
+.category-header {
+  position: sticky;
+  top: 0px;
+  background-color: #eee;
+  z-index: 1;
+  padding: 1em .5em;
+  color: #fff;
+  font-size: .9em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.cider {
+  background-color: #AA3939;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.fruit {
+  background-color: #246B61;
 }
 
-.App-title {
-  font-size: 1.5em;
+.specialty-strong {
+  background-color: #804515;
 }
 
-.App-intro {
-  font-size: large;
+.barleywine {
+  background-color: #AA4D39;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.dark {
+  background-color: #384356;
+}
+
+.pale {
+  background-color: #D4CF6A;
+}
+
+.porter {
+  background-color: #323017;
+}
+
+.experimental {
+  background-color: #8B3063;
+}
+
+.wild-brett {
+  background-color: #249797;
+}
+
+.wild-sour-acidic {
+  background-color: #2CBA57;
+}
+
+.wild-sour-fruit {
+  background-color: #7331A9;
+}
+
+.medal.gold {
+  background-color: #FCD83B;
+}
+
+.medal.silver {
+  background-color: #A5A4A0;
+}
+
+.medal.bronze {
+  background-color: #AF803E;
 }
